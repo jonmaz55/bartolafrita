@@ -137,18 +137,22 @@ legend {
   font-family: "Lobster", cursive;
   letter-spacing: 3px;
 }
-
+/*////////menu-1*/
 fieldset {
   padding: 2px;
 }
-
+.menu-1{
+  padding: 0px;
+  font-size: 10px;
+}
 .menu-1 p {
-  margin: 12px;
   text-align: inherit;
+  margin-top: 10px;
 }
 .menu-1 p:hover {
   color: #f21616;
 }
+/*////////*/
 .p-1 {
   font-weight: bold;
 }
