@@ -85,7 +85,7 @@
 }
 
 .maps p {
-  margin-top: 20%;
+  margin-top: 6%;
   font-family: "Ramaraja", serif;
   text-transform: uppercase;
 }
@@ -141,13 +141,10 @@ legend {
 fieldset {
   padding: 2px;
 }
-.menu-1{
-  padding: 0px;
-  font-size: 10px;
-}
+
 .menu-1 p {
   text-align: inherit;
-  margin-top: 10px;
+  margin: 12px;
 }
 .menu-1 p:hover {
   color: #f21616;

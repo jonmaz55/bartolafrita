@@ -133,7 +133,7 @@
 }
 @media screen and (max-width: 320px) {
   .container {
-    grid-template-rows: 0fr 0.9fr 3.3fr 0.1fr;
+    grid-template-rows: 0fr 0.9fr 2.6fr 0.2fr;
     grid-template-areas:
       "header"
       "navbar"
@@ -206,6 +206,13 @@
     font-size: 60px;
   }
   /*menu-1*/
+  .menu-1{
+    padding: 0px;
+    font-size: 10px;
+  }
+  .menu-1 p{
+    margin: 1px;
+  }
   fieldset {
     padding: 0px;
   }
