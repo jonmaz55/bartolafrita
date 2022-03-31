@@ -45,6 +45,7 @@
   }
   .social img {
     padding: 0%;
+    top: 30px;
   }
   .container-1 {
     padding: 2%;
@@ -133,13 +134,23 @@
 }
 @media screen and (max-width: 320px) {
   .container {
-    grid-template-rows: 0fr 0.9fr 2.6fr 0.2fr;
+    grid-template-rows: 0fr 0.7fr 2.6fr 0.2fr;
     grid-template-areas:
       "header"
       "navbar"
       "contenido"
       "footer";
   }
+  .contenedor-1 img{
+    height: 400px;
+  }
+  .contenedor-1{
+    height: 350px;
+  }
+  .centrado h1{
+    font-size: 32px;
+    margin-top: 10px;
+  } 
 
   .container-1 {
     display: grid;
@@ -181,6 +192,10 @@
     top: 20px;
   }
 
+  .centrado{
+    margin-top: 50%;
+  }
+
   .contenedor-img-1 img {
     width: 200px;
     height: 200px;
@@ -202,9 +217,6 @@
     margin-right: 20px;
   }
 
-  .centrado h1{
-    font-size: 60px;
-  }
   /*menu-1*/
   .menu-1{
     padding: 0px;
